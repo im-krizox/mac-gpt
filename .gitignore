@@ -1,0 +1,120 @@
+# ===============================================
+# MAC-GPT - Archivos a Ignorar por Git
+# ===============================================
+
+# 🔒 Variables de Entorno y Secretos
+.env
+.env.local
+.env.production
+.env.development
+*.key
+secrets.json
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 🌐 Entorno Virtual
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# 💾 Datos y Archivos Temporales
+data/
+*.pkl
+*.csv
+*.json
+logs/
+*.log
+tmp/
+temp/
+
+# 🖥️ IDEs y Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 🚗 Selenium y Drivers
+chromedriver*
+geckodriver*
+*.crx
+
+# 📊 Jupyter Notebooks
+.ipynb_checkpoints
+
+# 🧪 Tests y Coverage
+.coverage
+htmlcov/
+.tox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 🍃 Flask
+instance/
+.webassets-cache
+
+# 🗃️ Base de Datos
+*.db
+*.sqlite3
+
+# 🔄 Sistema Operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 📦 NPM (si agregas frontend)
+node_modules/
+npm-debug.log*
+
+# ☁️ Cloud y Deployment
+.vercel
+.netlify
+railway.json
+
+# 📈 Monitoreo y Analytics
+.sentry-*
+
+# ===============================================
+# MANTENER ESTOS ARCHIVOS:
+# - README.md
+# - requirements.txt
+# - env.example
+# - src/
+# - config/
+# - pipeline/
+# - main.py
+# ===============================================

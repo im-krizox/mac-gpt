@@ -1,0 +1,33 @@
+# ===============================================
+# MAC-GPT - Dependencias del Proyecto
+# ===============================================
+
+# 🌐 Web Scraping y Requests
+beautifulsoup4>=4.12.2
+requests>=2.32.0
+selenium>=4.16.0
+webdriver-manager>=4.0.1
+
+# 📄 Procesamiento de PDFs
+PyPDF2>=3.0.1
+pdfplumber>=0.10.3
+
+# 🤖 Google Generative AI
+google-generativeai>=0.3.1
+
+# 📊 Análisis de Datos
+pandas>=2.1.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# 🌐 Framework Web
+flask>=2.0.0
+
+# 🔧 Utilidades
+python-dotenv>=1.0.0
+markdown>=3.5.1
+
+# ===============================================
+# Instalación:
+# pip install -r requirements.txt
+# =============================================== 
